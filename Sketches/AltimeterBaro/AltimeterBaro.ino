@@ -1,5 +1,5 @@
 //Uncomment for testmode (No DCS needed)
-#define TEST
+//#define TEST
 
 #ifndef TEST
   #define DCSBIOS_IRQ_SERIAL
@@ -211,7 +211,7 @@ void loop() {
         onAlt10000FtChange(i);
         onAlt1000FtChange(i);
         onAlt100FtChange(i);
-        i += 400;
+        i += 200;
       #else
         onBaro0Change(i);
         onBaro1Change(i);
