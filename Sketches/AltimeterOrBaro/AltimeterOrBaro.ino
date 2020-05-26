@@ -1,5 +1,5 @@
 //Uncomment for testmode (No DCS needed)
-//#define TEST
+#define TEST
 
 #ifndef TEST
   #define DCSBIOS_IRQ_SERIAL
